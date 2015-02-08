@@ -23,6 +23,9 @@ Command\Building\Embassy\SendInviteCommandTest
 Command\Building\Embassy\UpdateAllianceCommandTest
 Command\Building\Embassy\WithdrawInviteCommandTest
 
+Command\Building\GeneticsLab\RenameSpeciesCommandTest
+Command\Building\GeneticsLab\RunExperimentCommandTest
+
 Command\Building\Intelligence\AssignSpyCommandTest
 Command\Building\Intelligence\BurnSpyCommandTest
 Command\Building\Intelligence\NameSpyCommandTest
