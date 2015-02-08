@@ -17,6 +17,14 @@ Command\Building\Intelligence\NameSpyCommandTest
 Command\Building\Intelligence\TrainSpyCommandTest
 Command\Building\Intelligence\ViewSpiesCommandTest
 
+Command\Building\MercenariesGuild\AcceptFromMarketCommandTest
+Command\Building\MercenariesGuild\AddToMarketCommandTest
+Command\Building\MercenariesGuild\GetTradeShipsCommandTest
+Command\Building\MercenariesGuild\ReportAbuseCommandTest
+Command\Building\MercenariesGuild\ViewMarketCommandTest
+Command\Building\MercenariesGuild\ViewMyMarketCommandTest
+Command\Building\MercenariesGuild\WithdrawFromMarketCommandTest
+
 Command\Building\MiningMinistry\AbandonPlatformCommandTest
 Command\Building\MiningMinistry\AddCargoShipToFleetCommandTest
 Command\Building\MiningMinistry\RemoveCargoShipFromFleetCommandTest
@@ -27,6 +35,32 @@ Command\Building\Security\ExecutePrisonerCommandTest
 Command\Building\Security\ReleasePrisonerCommandTest
 Command\Building\Security\ViewForeignSpiesCommandTest
 Command\Building\Security\ViewPrisonersCommandTest
+
+Command\Building\Trade\AcceptFromMarketCommandTest
+Command\Building\Trade\AddSupplyShipToFleetCommandTest
+Command\Building\Trade\AddToMarketCommandTest
+Command\Building\Trade\AddWasteShipToFleetCommandTest
+Command\Building\Trade\CreateSupplyChainCommandTest
+Command\Building\Trade\DeleteSupplyChainCommandTest
+Command\Building\Trade\GetTradeShipsCommandTest
+Command\Building\Trade\PushItemsCommandTest
+Command\Building\Trade\RemoveSupplyShipFromFleetCommandTest
+Command\Building\Trade\RemoveWasteShipFromFleetCommandTest
+Command\Building\Trade\ReportAbuseCommandTest
+Command\Building\Trade\UpdateSupplyChainCommandTest
+Command\Building\Trade\UpdateWasteChainCommandTest
+Command\Building\Trade\ViewMarketCommandTest
+Command\Building\Trade\ViewMyMarketCommandTest
+Command\Building\Trade\WithdrawFromMarketCommandTest
+
+Command\Building\Transporter\AcceptFromMarketCommandTest
+Command\Building\Transporter\AddToMarketCommandTest
+Command\Building\Transporter\PushItemsCommandTest
+Command\Building\Transporter\ReportAbuseCommandTest
+Command\Building\Transporter\TradeOneForOneCommandTest
+Command\Building\Transporter\ViewMarketCommandTest
+Command\Building\Transporter\ViewMyMarketCommandTest
+Command\Building\Transporter\WithdrawFromMarketCommandTest
 
 Command\Building\WasteExchanger\RecycleCommandTest
 Command\Building\WasteRecycling\RecycleCommandTest
