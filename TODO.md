@@ -44,6 +44,9 @@ Command\Building\MiningMinistry\AbandonPlatformCommandTest
 Command\Building\MiningMinistry\AddCargoShipToFleetCommandTest
 Command\Building\MiningMinistry\RemoveCargoShipFromFleetCommandTest
 
+Command\Building\MissionCommand\CompleteMissionCommandTest
+Command\Building\MissionCommand\SkipMissionCommandTest
+
 Command\Building\Network19\RestrictCoverageCommandTest
 
 Command\Building\Security\ExecutePrisonerCommandTest
