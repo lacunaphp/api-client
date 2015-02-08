@@ -49,6 +49,9 @@ Command\Building\MissionCommand\SkipMissionCommandTest
 
 Command\Building\Network19\RestrictCoverageCommandTest
 
+Command\Building\Observatory\AbandonProbeCommandTest
+Command\Building\Observatory\GetProbedStarsCommandTest
+
 Command\Building\Security\ExecutePrisonerCommandTest
 Command\Building\Security\ReleasePrisonerCommandTest
 Command\Building\Security\ViewForeignSpiesCommandTest
