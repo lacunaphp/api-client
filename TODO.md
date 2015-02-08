@@ -32,6 +32,8 @@ Command\Building\Intelligence\NameSpyCommandTest
 Command\Building\Intelligence\TrainSpyCommandTest
 Command\Building\Intelligence\ViewSpiesCommandTest
 
+Command\Building\LibraryOfJith\ResearchSpeciesCommandTest
+
 Command\Building\MercenariesGuild\AcceptFromMarketCommandTest
 Command\Building\MercenariesGuild\AddToMarketCommandTest
 Command\Building\MercenariesGuild\GetTradeShipsCommandTest
