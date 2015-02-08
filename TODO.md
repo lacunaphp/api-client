@@ -4,6 +4,8 @@
 
 #### Building Unit Tests
 
+Command\Building\BlackHoleGenerator\GetActionsForCommandTest
+
 Command\Building\Capitol\RenameEmpireCommandTest
 
 Command\Building\Development\CancelBuildCommandTest
@@ -32,6 +34,8 @@ Command\Building\Intelligence\NameSpyCommandTest
 Command\Building\Intelligence\TrainSpyCommandTest
 Command\Building\Intelligence\ViewSpiesCommandTest
 
+Command\Building\LibraryOfJith\ResearchSpeciesCommandTest
+
 Command\Building\MercenariesGuild\AcceptFromMarketCommandTest
 Command\Building\MercenariesGuild\AddToMarketCommandTest
 Command\Building\MercenariesGuild\GetTradeShipsCommandTest
@@ -51,6 +55,9 @@ Command\Building\Network19\RestrictCoverageCommandTest
 
 Command\Building\Observatory\AbandonProbeCommandTest
 Command\Building\Observatory\GetProbedStarsCommandTest
+
+Command\Building\OracleOfAnid\GetProbedStarsCommandTest
+Command\Building\OracleOfAnid\GetStarCommandTest
 
 Command\Building\Security\ExecutePrisonerCommandTest
 Command\Building\Security\ReleasePrisonerCommandTest
@@ -82,6 +89,12 @@ Command\Building\SpacePort\ViewShipsOrbitingCommandTest
 Command\Building\SpacePort\ViewShipsTravellingCommandTest
 
 Command\Building\SpaceStationLab\MakePlanCommandTest
+
+Command\Building\TempleOfTheDrajilites\ListPlanetsCommandTest
+Command\Building\TempleOfTheDrajilites\ViewPlanetCommandTest
+
+Command\Building\TheDillonForge\MakePlanCommandTest
+Command\Building\TheDillonForge\SplitPlanCommandTest
 
 Command\Building\Trade\AcceptFromMarketCommandTest
 Command\Building\Trade\AddSupplyShipToFleetCommandTest
