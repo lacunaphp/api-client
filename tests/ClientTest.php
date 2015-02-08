@@ -3,7 +3,6 @@
 namespace LacunaPHP\APIClient\Tests;
 
 use LacunaPHP\APIClient\Client;
-use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Command\CommandTransaction;
 
 
