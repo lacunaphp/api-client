@@ -11,6 +11,18 @@ Command\Building\Development\SubsidizeOneBuildCommandTest
 
 Command\Building\DistributionCenter\ReserveCommandTest
 
+Command\Building\Embassy\AcceptInviteCommandTest
+Command\Building\Embassy\AssignAllianceLeaderCommandTest
+Command\Building\Embassy\CreateAllianceCommandTest
+Command\Building\Embassy\DonateToStashCommandTest
+Command\Building\Embassy\ExchangeWithStashCommandTest
+Command\Building\Embassy\ExpelMemberCommandTest
+Command\Building\Embassy\LeaveAllianceCommandTest
+Command\Building\Embassy\RejectInviteCommandTest
+Command\Building\Embassy\SendInviteCommandTest
+Command\Building\Embassy\UpdateAllianceCommandTest
+Command\Building\Embassy\WithdrawInviteCommandTest
+
 Command\Building\Intelligence\AssignSpyCommandTest
 Command\Building\Intelligence\BurnSpyCommandTest
 Command\Building\Intelligence\NameSpyCommandTest
