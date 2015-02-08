@@ -79,6 +79,14 @@ Command\Building\Parliament\ProposeTransferStationOwnershipCommandTest
 Command\Building\Parliament\ProposeWritCommandTest
 Command\Building\Parliament\ViewLawsCommandTest
 
+Command\Building\PoliceStation\ExecutePrisonerCommandTest
+Command\Building\PoliceStation\ReleasePrisonerCommandTest
+Command\Building\PoliceStation\ViewForeignShipsCommandTest
+Command\Building\PoliceStation\ViewForeignSpiesCommandTest
+Command\Building\PoliceStation\ViewPrisonersCommandTest
+Command\Building\PoliceStation\ViewShipsOrbitingCommandTest
+Command\Building\PoliceStation\ViewShipsTravellingCommandTest
+
 Command\Building\Security\ExecutePrisonerCommandTest
 Command\Building\Security\ReleasePrisonerCommandTest
 Command\Building\Security\ViewForeignSpiesCommandTest
