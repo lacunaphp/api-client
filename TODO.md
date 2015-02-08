@@ -36,6 +36,11 @@ Command\Building\Security\ReleasePrisonerCommandTest
 Command\Building\Security\ViewForeignSpiesCommandTest
 Command\Building\Security\ViewPrisonersCommandTest
 
+Command\Building\Shipyard\BuildShipCommandTest
+Command\Building\Shipyard\GetBuildableCommandTest
+Command\Building\Shipyard\SubsidizeShipCommandTest
+Command\Building\Shipyard\ViewBuildQueueCommandTest
+
 Command\Building\Trade\AcceptFromMarketCommandTest
 Command\Building\Trade\AddSupplyShipToFleetCommandTest
 Command\Building\Trade\AddToMarketCommandTest
