@@ -2,6 +2,7 @@
 
 ### Missing Unit Tests
 
+#### Building Unit Tests
 
 Command\Building\Capitol\RenameEmpireCommandTest
 
@@ -10,11 +11,22 @@ Command\Building\Development\SubsidizeOneBuildCommandTest
 
 Command\Building\DistributionCenter\ReserveCommandTest
 
+Command\Building\Intelligence\AssignSpyCommandTest
+Command\Building\Intelligence\BurnSpyCommandTest
+Command\Building\Intelligence\NameSpyCommandTest
+Command\Building\Intelligence\TrainSpyCommandTest
+Command\Building\Intelligence\ViewSpiesCommandTest
+
 Command\Building\MiningMinistry\AbandonPlatformCommandTest
 Command\Building\MiningMinistry\AddCargoShipToFleetCommandTest
 Command\Building\MiningMinistry\RemoveCargoShipFromFleetCommandTest
 
 Command\Building\Network19\RestrictCoverageCommandTest
+
+Command\Building\Security\ExecutePrisonerCommandTest
+Command\Building\Security\ReleasePrisonerCommandTest
+Command\Building\Security\ViewForeignSpiesCommandTest
+Command\Building\Security\ViewPrisonersCommandTest
 
 Command\Building\WasteExchanger\RecycleCommandTest
 Command\Building\WasteRecycling\RecycleCommandTest
