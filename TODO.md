@@ -11,5 +11,7 @@ Command\Building\MiningMinistry\AbandonPlatformCommandTest
 Command\Building\MiningMinistry\AddCargoShipToFleetCommandTest
 Command\Building\MiningMinistry\RemoveCargoShipFromFleetCommandTest
 
+Command\Building\Network19\RestrictCoverageCommandTest
+
 Command\Building\WasteExchanger\RecycleCommandTest
 Command\Building\WasteRecycling\RecycleCommandTest
