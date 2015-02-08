@@ -4,6 +4,8 @@
 
 #### Building Unit Tests
 
+Command\Building\BlackHoleGenerator\GetActionsForCommandTest
+
 Command\Building\Capitol\RenameEmpireCommandTest
 
 Command\Building\Development\CancelBuildCommandTest
