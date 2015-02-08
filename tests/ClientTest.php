@@ -211,49 +211,4 @@ class ClientTest extends \PHPUnit_Framework_TestCase {
 			json_decode($request->getBody(), true)
 		);
 	}
-
-	/*
-	public function testCreateCommandException() {
-		$exceptions = json_decode(file_get_contents(__DIR__ . '/../src/Resources/exceptions.json'), true);
-
-		$client = new Client('https://api.example.com');
-		$command = $this->getMock('LacunaPHP\APIClient\Command\APICommandInterface');
-
-		$id = 0;
-		foreach($exceptions as $code => $class) {
-			$transaction = new CommandTransaction($client, $command);
-
-			$transaction->request = $this->getMock('GuzzleHttp\Message\RequestInterface');
-			$transaction->request->method('getUrl')->willReturn('https://api.example.com/module');
-
-			$transaction->response = $this->getMock('GuzzleHttp\Message\ResponseInterface');
-			$transaction->response->method('getStatusCode')->willReturn(500);
-			$transaction->response->method('getReasonPhrase')->willReturn('Unknown Exception');
-			$transaction->response->method('json')->willReturn([
-				'jsonrpc' => '2.0',
-				'id'      => ++$id,
-				'error'   => [
-					'code'    => $code,
-					'message' => 'API Error',
-					'data'    => [
-						'class' => $class
-					]
-				]
-			]);
-
-			$transaction->exception = RequestException::create(
-				$transaction->request,
-				$transaction->response
-			);
-
-			$exception = $client->createCommandException($transaction);
-
-			$this->assertInstanceOf($class, $exception);
-			$this->assertEquals($code, $exception->getCode());
-			$this->assertEquals('API Error', $exception->getMessage());
-			$this->assertEquals(['class' => $class], $exception->getData());
-			$this->assertEquals($id, $exception->getID());
-		}
-	}
-	*/
 }
