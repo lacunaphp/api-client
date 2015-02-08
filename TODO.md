@@ -81,6 +81,8 @@ Command\Building\SpacePort\ViewForeignShipsCommandTest
 Command\Building\SpacePort\ViewShipsOrbitingCommandTest
 Command\Building\SpacePort\ViewShipsTravellingCommandTest
 
+Command\Building\SpaceStationLab\MakePlanCommandTest
+
 Command\Building\Trade\AcceptFromMarketCommandTest
 Command\Building\Trade\AddSupplyShipToFleetCommandTest
 Command\Building\Trade\AddToMarketCommandTest
