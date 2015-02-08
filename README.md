@@ -32,9 +32,9 @@ composer require lacunaphp/api-client
 ```php
 require_once('vendor/autoload.php');
 
-$uri = 'https://us1.lacunaexpanse.com';
+use LacunaPHP\APIClient\Client;
 
-$client = new LacunaPHP\APIClient($uri)
+$client = new Client('https://us1.lacunaexpanse.com');
 
 try {
 	$result = $client->empire->login([
