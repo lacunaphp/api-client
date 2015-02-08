@@ -41,6 +41,25 @@ Command\Building\Shipyard\GetBuildableCommandTest
 Command\Building\Shipyard\SubsidizeShipCommandTest
 Command\Building\Shipyard\ViewBuildQueueCommandTest
 
+Command\Building\SpacePort\FetchSpiesCommandTest
+Command\Building\SpacePort\GetFleetForCommandTest
+Command\Building\SpacePort\GetShipsForCommandTest
+Command\Building\SpacePort\MassScuttleShipCommandTest
+Command\Building\SpacePort\NameShipCommandTest
+Command\Building\SpacePort\PrepareFetchSpiesCommandTest
+Command\Building\SpacePort\PrepareSendSpiesCommandTest
+Command\Building\SpacePort\RecallShipCommandTest
+Command\Building\SpacePort\ScuttleShipCommandTest
+Command\Building\SpacePort\SendFleetCommandTest
+Command\Building\SpacePort\SendShipCommandTest
+Command\Building\SpacePort\SendShipTypesCommandTest
+Command\Building\SpacePort\SendSpiesCommandTest
+Command\Building\SpacePort\ViewAllShipsCommandTest
+Command\Building\SpacePort\ViewBattleLogsCommandTest
+Command\Building\SpacePort\ViewForeignShipsCommandTest
+Command\Building\SpacePort\ViewShipsOrbitingCommandTest
+Command\Building\SpacePort\ViewShipsTravellingCommandTest
+
 Command\Building\Trade\AcceptFromMarketCommandTest
 Command\Building\Trade\AddSupplyShipToFleetCommandTest
 Command\Building\Trade\AddToMarketCommandTest
