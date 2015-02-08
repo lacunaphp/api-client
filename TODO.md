@@ -56,6 +56,9 @@ Command\Building\Network19\RestrictCoverageCommandTest
 Command\Building\Observatory\AbandonProbeCommandTest
 Command\Building\Observatory\GetProbedStarsCommandTest
 
+Command\Building\OracleOfAnid\GetProbedStarsCommandTest
+Command\Building\OracleOfAnid\GetStarCommandTest
+
 Command\Building\Security\ExecutePrisonerCommandTest
 Command\Building\Security\ReleasePrisonerCommandTest
 Command\Building\Security\ViewForeignSpiesCommandTest
