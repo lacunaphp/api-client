@@ -90,6 +90,9 @@ Command\Building\SpacePort\ViewShipsTravellingCommandTest
 
 Command\Building\SpaceStationLab\MakePlanCommandTest
 
+Command\Building\TempleOfTheDrajilites\ListPlanetsCommandTest
+Command\Building\TempleOfTheDrajilites\ViewPlanetCommandTest
+
 Command\Building\Trade\AcceptFromMarketCommandTest
 Command\Building\Trade\AddSupplyShipToFleetCommandTest
 Command\Building\Trade\AddToMarketCommandTest
