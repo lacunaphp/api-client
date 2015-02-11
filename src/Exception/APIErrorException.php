@@ -29,7 +29,7 @@ class APIErrorException extends CommandServerException {
 		return $this->data;
 	}
 
-	public static function create(CommandTransaction $transaction, \Exception $previous = null) {
+	public static function createFromTransaction(CommandTransaction $transaction, \Exception $previous = null) {
 		if(!is_array($transaction->response->json()['error'])) {
 			return;
 		}

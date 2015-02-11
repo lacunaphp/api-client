@@ -94,7 +94,7 @@ class Client extends AbstractClient {
 		$payload = $transaction->response->json();
 
 		if($payload['error']) {
-			throw APIErrorException::create($transaction);
+			throw APIErrorException::createFromTransaction($transaction);
 		}
 
 		// replace string datetime with objects

@@ -165,7 +165,7 @@ class APIErrorExceptionTest extends \PHPUnit_Framework_TestCase {
 			]
 		]);
 
-		$exception = APIErrorException::create($transaction);
+		$exception = APIErrorException::createFromTransaction($transaction);
 
 		$this->assertInstanceOf($class, $exception);
 		$this->assertEquals($code, $exception->getCode());
