@@ -15,6 +15,7 @@ Command\Building\DistributionCenter\ReserveCommandTest
 
 Command\Building\Embassy\AcceptInviteCommandTest
 Command\Building\Embassy\AssignAllianceLeaderCommandTest
+Command\Building\Embassy\CastVoteCommandTest
 Command\Building\Embassy\CreateAllianceCommandTest
 Command\Building\Embassy\DonateToStashCommandTest
 Command\Building\Embassy\ExchangeWithStashCommandTest

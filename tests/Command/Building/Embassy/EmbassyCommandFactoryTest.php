@@ -123,4 +123,18 @@ class EmbassyCommandFactoryTest extends BuildingCommandFactoryTest {
 			'LacunaPHP\\APIClient\\Command\\Building\\Embassy\\ExchangeWithStashCommand'
 		);
 	}
+
+	public function testGetViewPropositionsCommand() {
+		$this->verifyCommandClass(
+			'viewpropositions',
+			'LacunaPHP\\APIClient\\Command\\Building\\Embassy\\ViewPropositionsCommand'
+		);
+	}
+
+	public function testGetCastVoteCommand() {
+		$this->verifyCommandClass(
+			'castvote',
+			'LacunaPHP\\APIClient\\Command\\Building\\Embassy\\CastVoteCommand'
+		);
+	}
 }
