@@ -60,4 +60,11 @@ class BodyCommandFactoryTest extends APICommandFactoryTest {
 			'LacunaPHP\\APIClient\\Command\\Body\\RepairListCommand'
 		);
 	}
+
+	public function testGetViewLawsCommand() {
+		$this->verifyCommandClass(
+			'viewlaws',
+			'LacunaPHP\\APIClient\\Command\\Body\\ViewLawsCommand'
+		);
+	}
 }
