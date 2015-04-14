@@ -41,6 +41,11 @@ class EmbassyCommandFactory extends BuildingCommandFactory {
 				return new DonateToStashCommand($this->getName(), 'donate_to_stash', $args, $options);
 			case 'exchangewithstash':
 				return new ExchangeWithStashCommand($this->getName(), 'exchange_with_stash', $args, $options);
+			case 'viewpropositions':
+				return new ViewPropositionsCommand($this->getName(), 'view_propositions', $args, $options);
+			case 'castvote':
+				return new CastVoteCommand($this->getName(), 'cast_vote', $args, $options);
+
 		}
 
 		return parent::getCommand($name, $args, $options);
