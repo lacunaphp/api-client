@@ -23,6 +23,8 @@ class BodyCommandFactory extends APICommandFactory {
 				return new RenameCommand($this->getName(), 'rename', $args, $options);
 			case 'abandon':
 				return new AbandonCommand($this->getName(), 'abandon', $args, $options);
+			case 'viewlaws':
+				return new ViewLawsCommand($this->getName(), 'view_laws', $args, $options);
 		}
 
 		return parent::getCommand($name, $args, $options);
