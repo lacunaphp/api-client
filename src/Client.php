@@ -98,22 +98,16 @@ class Client extends AbstractClient {
 		}
 
 		// replace string datetime with objects
-		array_walk_recursive($payload['result'], function(&$value, $key) {
-			//01 31 2010 13:09:05 +0600
-			$pattern = '/^\d{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2}\s.?\d{4}$/';
-			$format = 'd m Y H:i:s O';
-			if(preg_match($pattern, $value)) {
-				$value = \DateTime::createFromFormat($format, $value);
-			}
-		});
-
-		/*
-		array_walk_recursive($payload['result'], function($value, $key) {
-			if($value instanceof \DateTime) {
-				print '[' . $key . '] ' . $value->format(\DateTime::RFC850) . "\n";
-			}
-		});
-		*/
+		if(is_array($payload['result'])) {
+			array_walk_recursive($payload['result'], function(&$value, $key) {
+				//01 31 2010 13:09:05 +0600
+				$pattern = '/^\d{2}\s\d{2}\s\d{4}\s\d{2}:\d{2}:\d{2}\s.?\d{4}$/';
+				$format = 'd m Y H:i:s O';
+				if(preg_match($pattern, $value)) {
+					$value = \DateTime::createFromFormat($format, $value);
+				}
+			});
+		}
 
 		return [
 			'id'     => $payload['id'],
