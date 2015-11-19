@@ -46,4 +46,11 @@ class ShipyardCommandFactoryTest extends BuildingCommandFactoryTest {
 			'LacunaPHP\\APIClient\\Command\\Building\\Shipyard\\BuildShipCommand'
 		);
 	}
+
+	public function testGetBuildShipsCommand() {
+		$this->verifyCommandClass(
+			'buildships',
+			'LacunaPHP\\APIClient\\Command\\Building\\Shipyard\\BuildShipsCommand'
+		);
+	}
 }
