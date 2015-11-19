@@ -19,6 +19,8 @@ class ShipyardCommandFactory extends BuildingCommandFactory {
 				return new GetBuildableCommand($this->getName(), 'get_buildable', $args, $options);
 			case 'buildship':
 				return new BuildShipCommand($this->getName(), 'build_ship', $args, $options);
+			case 'buildships':
+				return new BuildShipsCommand($this->getName(), 'build_ships', $args, $options);
 		}
 
 		return parent::getCommand($name, $args, $options);
