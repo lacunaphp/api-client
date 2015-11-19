@@ -94,6 +94,7 @@ Command\Building\Security\ViewForeignSpiesCommandTest
 Command\Building\Security\ViewPrisonersCommandTest
 
 Command\Building\Shipyard\BuildShipCommandTest
+Command\Building\Shipyard\BuildShipsCommandTest
 Command\Building\Shipyard\GetBuildableCommandTest
 Command\Building\Shipyard\SubsidizeShipCommandTest
 Command\Building\Shipyard\ViewBuildQueueCommandTest
