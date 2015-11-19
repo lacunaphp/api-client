@@ -26,6 +26,13 @@ class TradeCommandFactoryTest extends BuildingCommandFactoryTest {
 		);
 	}
 
+	public function testGetGetShipSummaryCommandCommand() {
+		$this->verifyCommandClass(
+			'getshipsummary',
+			'LacunaPHP\\APIClient\\Command\\Building\\Trade\\GetShipSummaryCommand'
+		);
+	}
+
 	public function testGetGetPrisonersCommand() {
 		$this->verifyCommandClass(
 			'getprisoners',

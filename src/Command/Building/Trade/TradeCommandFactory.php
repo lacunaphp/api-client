@@ -13,6 +13,8 @@ class TradeCommandFactory extends BuildingCommandFactory {
 				return new AddToMarketCommand($this->getName(), 'add_to_market', $args, $options);
 			case 'getships':
 				return new GetShipsCommand($this->getName(), 'get_ships', $args, $options);
+			case 'getshipsummary':
+				return new GetShipSummaryCommand($this->getName(), 'get_ship_summary', $args, $options);
 			case 'getprisoners':
 				return new GetPrisonersCommand($this->getName(), 'get_prisoners', $args, $options);
 			case 'getplans': //deprecated, use get_plan_summary instead
