@@ -228,4 +228,27 @@ class EmpireCommandFactoryTest extends APICommandFactoryTest {
 			'LacunaPHP\\APIClient\\Command\\Empire\\ViewSpeciesStatsCommand'
 		);
 	}
+
+
+
+	public function testGetViewAuthorizedSittersCommand() {
+		$this->verifyCommandClass(
+			'viewauthorizedsitters',
+			'LacunaPHP\\APIClient\\Command\\Empire\\ViewAuthorizedSittersCommand'
+		);
+	}
+
+	public function testGetAuthorizeSittersCommand() {
+		$this->verifyCommandClass(
+			'authorizesitters',
+			'LacunaPHP\\APIClient\\Command\\Empire\\AuthorizeSittersCommand'
+		);
+	}
+
+	public function testGetDeauthorizeSittersCommand() {
+		$this->verifyCommandClass(
+			'deauthorizesitters',
+			'LacunaPHP\\APIClient\\Command\\Empire\\DeauthorizeSittersCommand'
+		);
+	}
 }

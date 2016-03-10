@@ -154,3 +154,6 @@ Command\Building\Transporter\WithdrawFromMarketCommandTest
 
 Command\Building\WasteExchanger\RecycleCommandTest
 Command\Building\WasteRecycling\RecycleCommandTest
+
+Command\Empire\AuthorizeSittersCommandTest
+Command\Empire\DeauthorizeSittersCommandTest
