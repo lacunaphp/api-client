@@ -77,6 +77,12 @@ class EmpireCommandFactory extends APICommandFactory {
 				return new ViewSpeciesStatsCommand($this->getName(), 'view_species_stats', $args, $options);
 			case 'getspeciestemplates':
 				return new GetSpeciesTemplatesCommand($this->getName(), 'get_species_templates', $args, $options);
+			case 'viewauthorizedsitters':
+				return new ViewAuthorizedSittersCommand($this->getName(), 'view_authorized_sitters', $args, $options);
+			case 'authorizesitters':
+				return new AuthorizeSittersCommand($this->getName(), 'authorize_sitters', $args, $options);
+			case 'deauthorizesitters':
+				return new DeauthorizeSittersCommand($this->getName(), 'deauthorize_sitters', $args, $options);	
 		}
 
 		return parent::getCommand($name, $args, $options);
